@@ -1,0 +1,5 @@
+*/10 * * * * scrapy runspider /opt/stockcrawler/tfhscrawler/spiders/ncdtbus.py >/dev/null 2>&1
+*/10 * * * * scrapy runspider /opt/stockcrawler/tfhscrawler/spiders/vtveco.py >/dev/null 2>&1
+*/10 * * * * scrapy runspider /opt/stockcrawler/tfhscrawler/spiders/cafefstockmarket.py >/dev/null 2>&1
+0 8 * * * scrapy runspider /opt/stockcrawler/tfhscrawler/spiders/cafefprofile.py >/dev/null 2>&1
+0 0 * * * scrapy runspider /opt/stockcrawler/tfhscrawler/spiders/vndirec.py >/dev/null 2>&1

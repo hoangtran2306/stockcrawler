@@ -1,0 +1,1 @@
+pm2 start vndirect.py --name "upcom" -- upcom -f

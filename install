@@ -1,0 +1,15 @@
+yum install git
+yum update -y
+yum install python-pip -y
+yum install python-devel -y
+yum install gcc gcc-devel -y
+yum install libxml2 libxml2-devel -y
+yum install libxslt libxslt-devel -y
+yum install openssl openssl-devel -y
+yum install libffi libffi-devel -y
+CFLAGS="-O0" pip install lxml
+pip install scrapy
+yum install MySQL-python
+pip install python-dateutil
+pip install python-memcached
+pip install websocket-client
