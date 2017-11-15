@@ -1,9 +1,9 @@
 # database configuration
 DB = {
-    'HOST': '10.3.0.102',
-    'USER': 'root',
-    'PWD': '',
-    'DB': 'stock24h_masterdb'
+    'HOST': '127.0.0.1',
+    'USER': 'admin',
+    'PWD': 'Anhhoang236',
+    'DB': 'finance'
 }
 # memcached
 MEMCACHE = {
